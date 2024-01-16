@@ -561,9 +561,12 @@ main {
 
 /* Responsive For Mobile Device */
 @media screen and (max-width: 600px) {
+    .main{
+        width: 100%;
+    }
 
     /* footer section start */
-    .foot .logo p {
+    .foot  p {
         width: 400px;
     }
 
@@ -597,13 +600,21 @@ main {
     .perfect-place {
         flex-direction: column;
     }
-
-    .popular-tour-text {
-        width: 500px;
-        margin: 0 auto;
+    .perfect-place-text h1{
+        width: 400px;
+        font-size: 30px;
+    }
+    .perfect-place-text p{
+        margin-left: 5px;
+        font-size: 16px;
+    }
+    .perfect-place-text li{
+        width: 400px;
     }
 
-    .popular-tour-img img {
+
+
+    .perfec-place-img img {
         width: 100%;
     }
 
@@ -615,12 +626,15 @@ main {
         margin: 0;
     }
 
-    .discount h1,
-    p {
-        width: 400px;
+    .discount h1 {
+        width: 450px;
         height: 100%;
         margin: 0 auto;
         padding: 3px;
+    }
+    .discount > p{
+        font-size: 16px;
+        width: 450px;
     }
 
 
@@ -629,10 +643,10 @@ main {
         width: 400px;
         height: 300px;
         background-color: rgba(240, 248, 255, 0.473);
-        padding: 35px;
+        padding: 5px;
         border-radius: 10px;
-        margin-top: 80px;
-        margin-right: 40px;
+        margin-top: 40px;
+        margin-right: 100px;
     }
 
     .discount-card-2 {
@@ -645,14 +659,28 @@ main {
         margin-top: 80px;
         margin-right: 40px;
     }
+    .discount-card-addr >p{
+        font-size: 10px ;
+    }
+    .discount-card-addr p > img{
+        width: 10px;
+        height: 10px;
+    }
 
 
 
     /* deals & discount section end */
 
     /* Choose Section Start */
+    .choose{
+        width: 600px;
+        margin: 0 auto;
+    }
     .choose-text {
         width: 500px;
+    }
+    .choose-text > p{
+        width: 450px;
     }
 
     /* Choose Section End */
@@ -661,7 +689,12 @@ main {
     /* Destination Section start */
     .destination-text {
         width: 500px;
-
+    }
+    .destination-text >h1{
+        font-size: 30px;
+    }
+    .destination-text >p{
+        width: 450px;
     }
 
     .grid-1,
