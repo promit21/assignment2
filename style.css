@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Mulish', sans-serif;
 }
 
 .primary-btn {
@@ -150,7 +151,8 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-.popular-tour-text{
+
+.popular-tour-text {
     width: 50%;
 }
 
@@ -275,14 +277,16 @@ main {
 .discount {
     max-width: 1170px;
     margin: 100px auto;
-    
+
 }
-.discount > h1{
+
+.discount>h1 {
     font-size: 48px;
     text-align: center;
     margin-bottom: 30px;
 }
-.discount > p{
+
+.discount>p {
     width: 600px;
     margin: 0 auto;
     text-align: center;
@@ -298,7 +302,8 @@ main {
     margin-top: 30px;
 }
 
-.discount-card-1, .discount-card-3 {
+.discount-card-1,
+.discount-card-3 {
     width: 500px;
     height: 300px;
     background-color: rgba(240, 248, 255, 0.473);
@@ -308,6 +313,7 @@ main {
     margin-top: 80px;
     margin-right: 40px;
 }
+
 .discount-card-2 {
     width: 500px;
     height: 300px;
@@ -319,33 +325,38 @@ main {
     margin-left: 40px;
 }
 
-.discount-card-addr{
+.discount-card-addr {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    
+
 }
-.discount-card-addr p{
+
+.discount-card-addr p {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     width: 140px;
-    margin: 10px ;
+    margin: 10px;
 }
+
 .discount-card-text h1 {
     font-size: 30px;
-    margin: 10px ;
+    margin: 10px;
 
 }
-.discount-card-text h2{
+
+.discount-card-text h2 {
     font-size: 25px;
-    margin: 0 ;
+    margin: 0;
     color: #FF5400;
 }
-.discount-card-text>p{
+
+.discount-card-text>p {
     font-size: 20px;
 }
+
 /* deals & discount section end */
 
 
@@ -375,6 +386,34 @@ main {
 
 /* Perfect Place Section End */
 
+
+/* Our Guide Section Start */
+.guide> h1{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-size: 48px;
+    text-align: center;
+
+}
+.guide-gellary{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.guide-item{
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px slategrey;
+}
+.guide-item img{
+    width: 100%;
+    height: 250px;
+}
+
+/* Our Guide Section End */
 
 /* Newsletter Section Start */
 .newsletter {
@@ -524,12 +563,14 @@ main {
 @media screen and (max-width: 600px) {
 
     /* footer section start */
-    .foot .logo p{
+    .foot .logo p {
         width: 400px;
     }
-    .foot hr{
+
+    .foot hr {
         width: 400px;
     }
+
     /* footer section end */
 
     /* Newsletter Section Start */
@@ -569,19 +610,22 @@ main {
     /* Perfect Place Section End */
 
     /* deals & discount section start */
-    .discount-card-text{
+    .discount-card-text {
         width: 400px;
         margin: 0;
     }
-    .discount h1,p{
+
+    .discount h1,
+    p {
         width: 400px;
         height: 100%;
         margin: 0 auto;
         padding: 3px;
     }
 
-    
-    .discount-card-1, .discount-card-3 {
+
+    .discount-card-1,
+    .discount-card-3 {
         width: 400px;
         height: 300px;
         background-color: rgba(240, 248, 255, 0.473);
@@ -590,6 +634,7 @@ main {
         margin-top: 80px;
         margin-right: 40px;
     }
+
     .discount-card-2 {
         width: 400px;
         height: 300px;
