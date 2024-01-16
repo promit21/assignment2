@@ -150,6 +150,9 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+.popular-tour-text{
+    width: 50%;
+}
 
 .popular-tour-text h1 {
     font-size: 40px;
