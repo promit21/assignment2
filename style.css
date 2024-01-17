@@ -38,6 +38,7 @@ main {
 .logo {
     display: flex;
     align-items: center;
+    gap: 10px;
 
 }
 
@@ -47,6 +48,12 @@ main {
 
 .logo h1 {
     font-size: 36px;
+}
+.logo .span1{
+    color: #ff3c00;
+}
+.logo .span2{
+    color:#ff3c00;
 }
 
 .menu {
@@ -384,6 +391,12 @@ main {
 .perfect-place li {
     margin-left: 20px;
 }
+.perfect-place-text{
+    width: 550px;
+}
+.perfec-place-img img{
+    width: 100%;
+}
 
 /* Perfect Place Section End */
 
@@ -582,13 +595,44 @@ main {
         flex-direction: column;
     }
 
+    .trabelsave h1 {
+        font-size: 18px;
+        color: #e7e3e2;
+    }
+    
+    .trabelsave h3 {
+        font-size: 15px;
+        color: #e7e3e2;
+    }
+    
+    .newsletter-img {
+        position: relative;
+        width: 550px;
+    }
+    
+    .newsletter-img img {
+        width: 100%;
+    }
+    
+    .newsletter-img .trabelsave {
+        background-color: #ff3c00;
+        width: 150px;
+        text-align: center;
+        padding: 16px;
+        border-radius: 10px;
+        position: absolute;
+        left: 330px;
+        bottom: 80px;
+        transform: rotate(-30deg);
+    }
+
     /* Newsletter Section End */
 
 
     /* Perfect Place Section Start */
     .perfect-place {
         flex-direction: column;
-        max-width: 600px;
+        width: 580px;
     }
     .perfect-place-text h1{
         width: 400px;
@@ -603,7 +647,9 @@ main {
         width: 400px;
     }
 
-
+    .perfec-place-img{
+        width: 550px;
+    }
 
     .perfec-place-img img {
         width: 100%;
@@ -614,11 +660,17 @@ main {
     /* deals & discount section start */
     .discount{
         width: 550px;
-        margin: 0 auto;
+        margin: 50px auto;
     }
     .discount-card-text {
         width: 400px;
-        margin: 0;
+        margin: 5px;
+    }
+    .discount-card-text h1{
+        font-size: 25px;
+    }
+    .discount-card-text p{
+        font-size: 16px;
     }
 
     .discount h1 {
@@ -640,22 +692,22 @@ main {
         background-color: rgba(240, 248, 255, 0.473);
         padding: 5px;
         border-radius: 10px;
-        margin-top: 40px;
-        margin-right: 100px;
+        margin-top: 80px;
+        margin-right: 40px;
     }
 
     .discount-card-2 {
         width: 400px;
         height: 300px;
         background-color: rgba(240, 248, 255, 0.473);
-        padding: 35px;
+        padding: 5px;
         border-radius: 10px;
         float: right;
         margin-top: 80px;
         margin-right: 40px;
     }
     .discount-card-addr >p{
-        font-size: 10px ;
+        font-size: 16px ;
     }
     .discount-card-addr p > img{
         width: 10px;
@@ -668,7 +720,7 @@ main {
 
     /* Choose Section Start */
     .choose{
-        width: 500px;
+        width: 550px;
         margin: 0 auto;
     }
     .choose-text {
@@ -699,9 +751,11 @@ main {
 
     }
 
+    .grid-item{
+        width: 590px;
+    }
     .grid-item img {
         width: 100%;
-        height: 100%;
         display: block;
         margin: 0 auto;
     }
@@ -714,10 +768,10 @@ main {
         flex-direction: column;
     }
     .popular-tour-text h1{
-        width: 450px;
+        width: 550px;
     }
     .popular-tour-text p{
-        width: 450px;
+        width: 550px;
     }
 
 
@@ -737,12 +791,12 @@ main {
     }
 
     .banner {
-        width: 600px;
+        width: 100%;
         height: 100%;
     }
 
     .banner-text h1 {
-        width: 500px;
+        width: 550px;
         margin: 10px auto;
         font-size: 30px;
     }
